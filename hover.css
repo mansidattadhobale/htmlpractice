@@ -1,0 +1,223 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bokor&family=Griffy&family=Inspiration&family=Moo+Lah+Lah&family=Mr+Bedfort&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bokor&family=Eater&family=Griffy&family=Inspiration&family=Moo+Lah+Lah&family=Mr+Bedfort&family=UnifrakturMaguntia&display=swap');
+
+.box{
+	width:700px;
+	height:600px;
+	margin:40px auto 0px auto;
+	border-image-source:url("images/imgg.jpeg");
+	display:grid;
+	grid-template-columns:repeat(4,1fr);
+	/*in one frame 4 square is formed
+	ctrl h ctrl v*/
+	
+
+
+}
+
+
+
+
+/*
+1px(pixel)=1/96inch =0.26mm
+1pt(points)=1/72inch=0.35mm
+1em(element width)=100% of parents
+1 rem(root elements)=100% of root
+*/
+
+/*tabs-> grid-> it contains both row ad column
+flex->multiple flex called grid
+flex only contains row or colum
+for same use classand for different operation use id
+*/
+
+.box p{
+  font-family: "Bokor", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+.box p:hover
+{
+	color:red;
+	background-color:blue ;
+	font-size: bold 13px;
+  font-family: "Eater", serif;
+  font-weight: 400;
+  font-style: normal;
+
+}
+
+
+
+
+.text{
+	margin-top:30px;
+	width:350px;
+	height:auto;
+}
+
+.text a{
+	text-decoration: none;
+	width:80px;
+	border:3px solid red;
+	padding:10px 20px;
+
+	text-align:left;
+	colour:red;
+	
+	border-radius: 20px;
+}
+
+.text .button1 a{
+ text-align:right;
+ color:blue;
+}
+
+
+.box .box-item {
+	width:170px;
+	height:120px;
+	margin:10px;
+}
+
+
+.box #img-box1{
+	background-image:url("images/n5.jpeg");
+	background-size:cover;
+	background-repeat:no repeat;
+	background-blend-mode: multiply;
+	background-color:pink;
+	
+	outline:2px ridge black;
+	outline-offset:-6px ;
+}
+
+.box #text-1 p
+{
+	color:30px solid green;
+}
+
+.box #text-1 p:hover
+{
+	color:30px solid pink;
+}
+
+
+.box #img-box1:hover{
+
+	color:lightpink;
+	}
+
+
+.box #img-box2:hover
+{
+	color:lightpink;
+	outline:10px dashed red;
+  background-image:url("images/flower.jpeg") ;	
+}
+
+.box #text-2
+{
+	color:30px solid greenyellow;
+}
+
+
+.box #img-box2{
+	background-image:url("images/n4.jpeg");
+	background-size:cover;
+	background-repeat:no repeat;
+	border: 15px solid black;
+	border: 15px solid black;
+	outline:2px ridge black;
+	outline-offset:-6px ;
+	
+	}
+
+
+
+.box #img-box3{
+	background-image:url("images/flower.jpeg");
+	background-size:cover;
+	background-repeat:no repeat;
+	background-blend-mode:;
+	border: 15px solid black;
+	outline:2px ridge black;
+	outline-offset:-6px ;
+}
+
+
+.box #img-box3:hover
+{
+	border:border: 15px round black;;
+	background-image:url("images/fl.jpeg");
+}
+
+.box #text-3 p{
+	color:30px blue;
+}
+
+
+.box #img-box4{
+	background-image:url("images/flower.jpeg");
+	background-size:cover;
+	background-repeat:no repeat;
+	background-blend-mode: multiply;
+	background-color:purple;
+	outline:2px ridge black;
+	outline-offset:-6px ;
+}
+.box #text-4
+{
+	color:30px purple;
+}
+.box #img-box4:hover
+	{
+		background-image: url("images/n6.jpeg");
+		border: 15px solid black;
+
+  }
+
+
+  .box #text-1
+{
+	color:14px red;
+}
+
+
+
+
+.box #img-box5{
+	background-image:url("images/h1.jpeg");
+	background-size:cover;
+	background-repeat:no repeat;
+	outline:2px groove; black;
+	outline-offset:-6px ;
+	border: 15px solid black;
+	}
+
+	.box #img-box5:hover
+	{
+		background-image: url("images/m6.jpeg");
+		border: 15px solid black;
+
+  }
+	
+.box #img-box6{
+	background-image:url("images/m.jpeg");
+	background-size:cover;
+	background-repeat:no repeat;
+	
+	border: 15px solid black;
+	}
+	
+  .box #img-box5:hover
+	{
+		background-image: url("images/m4.jpeg");
+		border: 15px solid black;
+
+  }
+  .box #text-6
+{
+	color:30px solid deeppink;
+}
